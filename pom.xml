@@ -161,6 +161,13 @@
             <plugin>
                 <groupId>org.apache.rat</groupId>
                 <artifactId>apache-rat-plugin</artifactId>
+                <configuration>
+                    <excludes>
+                        <exclude>settings.tar</exclude>
+                        <exclude>settings.xml</exclude>
+                        <exclude>known_hosts</exclude>
+                    </excludes> 
+                </configuration>
             </plugin>
 
             <plugin>
