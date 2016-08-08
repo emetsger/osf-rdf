@@ -166,6 +166,8 @@
                         <exclude>settings.tar</exclude>
                         <exclude>settings.xml</exclude>
                         <exclude>known_hosts</exclude>
+                        <exclude>.travis.yml</exclude>
+                        <exclude>**/*.md</exclude>
                     </excludes> 
                 </configuration>
             </plugin>
