@@ -25,7 +25,7 @@
         the Center for Open Science Open Science Framework
     </description>
     <url>http://emetsger.github.io/osf-rdf/</url>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
 
     <parent>
         <groupId>org.dataconservancy</groupId>
@@ -287,7 +287,7 @@
         <connection>scm:git:http://github.com/emetsger/osf-rdf.git</connection>
         <developerConnection>scm:git:http://github.com/emetsger/osf-rdf.git</developerConnection>
         <url>http://github.com/emetsger/osf-rdf</url>
-        <tag>osf-rdf-1.0.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <!-- Reporting ================================================== -->
